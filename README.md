@@ -32,7 +32,7 @@
     └───script
         └───app.js
 └───templates
-    └───index.html    html แสดงหน้าสะสมคะแน
+    └───index.html    html แสดงหน้าสะสมคะแนน
     └───winner.html   html แสดงหน้าผู้ชนะเกม
 └───practicum.py ฟังก์ชันที่ใช้กับ usb เช่น read write และ get_winner ที่รับค่าจากฮาร์ดแวร์
 └───webapp.py แสดงผลข้อมูลที่ได้จากฮาร์ดแวร์เข้ากับเว็บไซต์
