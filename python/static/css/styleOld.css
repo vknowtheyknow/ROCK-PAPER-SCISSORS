@@ -1,0 +1,88 @@
+body{
+    background-color: #b8a7e3;
+    
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 4fr 1fr;
+    grid-template-areas:  
+        'a a'
+        'L R'
+        'c c'
+        ;
+}
+.head {
+    grid-area: a;
+    text-align: center;
+    background-color: #1F192F;
+    background-image: url(https://galshir.com/gif/galshir-rock-paper-scissors.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 0 0 50px 50px;
+    
+    
+}
+.head > h1{
+    color: #b8a7e3;
+    text-shadow: 2px 2px white;
+}
+.card {
+    
+    /* border:solid; */
+    
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    
+    /* width: 100%; */
+}
+.Left {
+    grid-area: L;
+    box-sizing: border-box;
+
+    padding: 10px;
+
+    /* background-color: aliceblue; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-width: 0px 5px 0px 0px;
+    
+}
+.Right {
+    grid-area: R;
+    box-sizing: border-box;
+
+    padding: 10px;
+
+    /* background-color: aliceblue; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-width: 0px 0px 0px 5px;
+}
+.point{
+    grid-area: c;
+}
+.cdbox {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    background-color: white;
+    color: #1F192F;
+}
+.status{
+    font-size:400%;
+    text-align: center;
+}
+

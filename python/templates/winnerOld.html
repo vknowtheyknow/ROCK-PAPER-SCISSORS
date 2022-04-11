@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta http-equiv="refresh" content="0.2" /> -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHAMPION</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='style.css') }}"
+    />
+    <style></style>
+  </head>
+  <body
+    style="
+      background-image: url('https://images-ext-1.discordapp.net/external/tzj99HwyFa-_Ul6WSSCBXzzC5XhHc6edy4bTtmihP-o/%3Fattachmentid%3D4503/https/gaming.lenovo.com/emea/attachment.php');
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    {% if hero== 1 %}
+    <center>
+      <h1>THE WINNER IS</h1>
+    </center>
+    <div class="Success">
+      <center>
+        <h1 class="S" style="color: rgb(230, 2, 51)">USER 1</h1>
+      </center>
+    </div>
+    {% elif hero == 2 %}
+    <center>
+      <h1>THE WINNER IS</h1>
+    </center>
+    <div class="Success">
+      <center>
+        <h1 class="S" style="color: rgb(230, 2, 51)">USER 2</h1>
+      </center>
+    </div>
+    {% endif %}
+  </body>
+</html>
+

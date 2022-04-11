@@ -1,0 +1,100 @@
+body {
+    background-image: url("https://images.wallpaperscraft.com/image/single/astronaut_swing_bouquet_154206_2780x2780.jpg");
+}
+
+.head {
+    margin-top: -70px;
+    width: 100%;
+    height: 190px;
+    text-align: center;
+    background-color: #1F192F;
+    background-image: url(https://galshir.com/gif/galshir-rock-paper-scissors.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 0 0 50px 50px;
+}
+
+h4 {
+    color: aliceblue;
+    font-size: 60px;
+    text-shadow: 2px 2px #000000;
+}
+
+.count {
+    margin-top: -50px;
+    background-color: rgba(255, 45, 80, 0.674);
+    border: 2px solid #5e0303;
+    color: aliceblue;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text_c {
+    margin-top: -105px;
+    font-size: 75px;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#start-btn {
+    padding: 15px 50px;
+    font-size: 48px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 81);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+#start-btn:hover {
+    font-size: 50px;
+    background-color: #e00f0f;
+    border: 2px solid #565652;
+    color: rgb(0, 0, 0);
+    margin: 30px 2px;
+    padding: 18px 60px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+}
+
+.mid {
+    margin-left: 200px;
+    margin-right: 190px;
+}
+
+.Text {
+    text-align: center;
+}
+
+.block {
+    margin-left: -10px;
+    margin-right: -40px;
+    margin-top: 40px;
+}
+
+.Time_count{
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+}
+
+.invisible{
+   visibility: hidden;
+}
+
+.Jerry {
+    margin-top: 70px;
+}

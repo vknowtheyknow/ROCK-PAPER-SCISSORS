@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="3">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}" />
+    <script type="text/javascript" src="{{url_for('static',filename='script/app.js')}}" ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <h1>ROCK PAPER SCISSOR</h1>
+        <div class="cdbox">
+          
+            <h3 id="countdown"></h3>
+          
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="Left">
+          <h3 class="player">PLAYER 1</h1>
+          {% if winner==1 %}
+          <h1 class="status">WIN</h1>
+          
+          {% elif winner!=1 %}
+
+          <h1 class="status">LOSE</h1>
+          {% endif %}
+          <!-- <h3 class="point">POINT</h3> -->
+        </div>
+      </div>
+      <div class="card">
+        <div class="Right">
+          <h3 class="player">PLAYER 2</h1>
+          {% if winner==2 %}
+          <h1 class="status">WIN</h1>
+          
+          {% elif winner!=2 %}
+
+          <h1 class="status">LOSE</h1>
+          {% endif %}
+
+          <!-- <h3 class="point">POINT</h3> -->
+        </div>
+      </div>
+      <div class="point">
+        <h3>POINT {{point[0]}}:{{point[1]}}</h3>
+      </div>
+    </div>
+  </body>
+</html>

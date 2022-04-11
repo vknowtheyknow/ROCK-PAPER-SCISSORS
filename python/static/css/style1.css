@@ -1,0 +1,27 @@
+body {
+  background-image: url('https://images-ext-1.discordapp.net/external/VoZY0iqSepvqpBr0D61UMB8VBa0PUjeBV9QnWmaBIg4/https/wallpapercave.com/uwp/uwp292236.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+}
+
+.block >img {
+    width: 500px;
+    margin-top: -50px;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+
+.right >img {
+    transform: scaleX(-1);
+}
